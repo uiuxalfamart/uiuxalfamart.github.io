@@ -1,0 +1,213 @@
+:root{
+  --blue: #005AAB;
+  --blue_hover: #004593;
+
+  --red: #ED1C24;
+  --red_hover: #CB142B;
+
+  --yellow: #FFD503;
+  --yellow_hover: #DBB302;
+}
+.breadcrumb-item a{
+  text-decoration: none !important;
+  color: black;
+}
+
+.breadcrumb-item .active{
+  color: var(--red);
+}
+
+.btn-transparent{
+  background-color: transparent;
+  color: black;
+  border: 1px dashed black;
+  padding: 1rem 2rem;
+}
+
+.detail{
+  background-color: var(--blue);
+  padding: 1rem;
+  border-radius: 15px 0 15px 0;
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  max-height: 3.4rem;
+  text-align: center;
+  border: none;
+}
+
+.edit{
+  background-color: var(--yellow);
+  padding: 1rem;
+  border-radius: 15px 0 15px 0;
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  max-height: 3.4rem;
+  text-align: center;
+  border: none;
+}
+
+.delete{
+  background-color: var(--red);
+  padding: 1rem;
+  border-radius: 15px 0 15px 0;
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: contain;
+  max-height: 3.4rem;
+  text-align: center;
+  border: none;
+}
+.btn-secondary-blue {
+  background-color: var(--blue);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-color: transparent;
+  width: 3rem !important;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+}
+
+.btn-blue{
+  background-color: var(--blue);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+  padding: .7rem 2rem;
+  border-color: transparent;
+}
+
+.btn-neutral {
+  background-color: #EBE8E7;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-color: transparent;
+  width: 3rem !important;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+table, form, .form-select, .form-control{
+  font-size: 14px;
+}
+
+
+
+.header{
+  background-color: lightgray;
+  /* padding: 0rem 0rem; */
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  margin-top: -1rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding: 0rem 1rem;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.id, .id-karyawan, .id-toko, .id-department, .paket, .telfon, .lain{
+  border-radius: .5rem;
+  border: 1px solid lightgray;
+  padding: 1rem 2rem;
+}
+
+#warning{
+  display: none;
+  color: var(--red);
+}
+
+.collapsible {
+  /* background-color: #777; */
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible.active, .collapsible:hover {
+  background-color: #555;
+  color: white;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.modal-header{
+  padding: .5rem 2rem !important;
+}
+
+.modal-dialog{
+  max-width: 80vw !important;
+  margin-top: .5rem !important;
+}
+
+.modal-body{
+  padding: .5rem 2rem !important;
+}
+
+.modal-footer{
+  padding-bottom: 0rem;
+}
+
+.id-karyawan, .id-toko, .id-department{
+  display: none;
+}
+
+#LOVkode{
+  background-color: var(--yellow) !important;
+}
+
+.dataTables_wrapper .dataTables_filter input{
+  width: 25vw !important;
+}
+
+@media only screen and (max-width: 1366px){
+  .detail, .edit, .delete{
+    padding: .5rem;
+    width: 2rem;
+    background-position: center;
+    height: 2rem;
+    text-align: center;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1600px){
+  .detail, .edit, .delete{
+    padding: .7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+    max-height: 3.4rem;
+    text-align: center;
+    border: none;
+  }
+
+}

@@ -1,0 +1,94 @@
+:root{
+    --blue: #005AAB;
+    --blue_hover: #004593;
+
+    --red: #ED1C24;
+    --red_hover: #CB142B;
+
+    --yellow: #FFD503;
+    --yellow_hover: #DBB302;
+}
+
+.detail{
+    background-color: var(--blue);
+    padding: 1rem;
+    border-radius: 15px 0 15px 0;
+    width: 3.4rem;
+    height: 3.4rem;
+    object-fit: contain;
+    max-height: 3.4rem;
+    text-align: center;
+    border: none;
+}
+
+.edit{
+    background-color: var(--yellow);
+    padding: 1rem;
+    border-radius: 15px 0 15px 0;
+    width: 3.4rem;
+    height: 3.4rem;
+    object-fit: contain;
+    max-height: 3.4rem;
+    text-align: center;
+    border: none;
+}
+
+.delete{
+    background-color: var(--red);
+    padding: 1rem;
+    border-radius: 15px 0 15px 0;
+    width: 3.4rem;
+    height: 3.4rem;
+    object-fit: contain;
+    max-height: 3.4rem;
+    text-align: center;
+    border: none;
+}
+
+.cetak-report{
+    color: white;
+    text-decoration: none;
+}
+
+.cetak-report:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#table_wrapper, table, .form-select, .form-label, .form-control{
+    font-size: 14px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color:black !important;
+    border: none !important;
+    background-color: transparent !important;
+    background: transparent !important;
+    border-bottom: .2rem solid var(--red) !important;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 1366px){
+    .detail, .edit, .delete{
+        padding: .7rem;
+        width: 2.5rem;
+        background-position: center;
+        height: 2.5rem;
+        text-align: center;
+        border: none;
+      }
+  }
+
+@media only screen and (min-width: 1367px) and (max-width: 1600px){
+    .detail, .edit, .delete{
+      padding: .7rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      object-fit: contain;
+      max-height: 3.4rem;
+      text-align: center;
+      border: none;
+    }
+  
+}

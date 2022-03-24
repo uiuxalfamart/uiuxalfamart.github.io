@@ -1,0 +1,20 @@
+#footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    background: #CB142B;
+    border-radius: 20px 20px 0px 0px;
+    /* margin-bottom: -1rem; */
+}
+
+#footer p{
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+}
+
+@media only screen and (max-width: 1366px){
+    #footer p{
+        font-size: 13px;
+    }
+}
